@@ -1,0 +1,49 @@
+### GPU Capability Test ###
+   Is BGRA feature required: TRUE
+
+Examining Graphics Adapter: AMD Radeon(TM) RX Vega 10 Graphics
+   VRAM: 1008Mb
+   DeviceId: 5592
+
+   Visual Xccelerator Engine Direct3D9 Compatibility
+      Determines whether the adapter is blacklisted due to its unstable work... FALSE
+      Trying to create Direct3D9 Device... SUCCESS
+
+   Visual Xccelerator Engine Direct3D11 Compatibility
+      Trying to create Direct3D9Ex Device (WPF Compatibility)... SUCCESS
+      Trying to create Direct3D11 Device... SUCCESS
+
+   Rank: 3001008 Points
+
+Examining Graphics Adapter: AMD Radeon(TM) RX Vega 10 Graphics
+   VRAM: 1008Mb
+   DeviceId: 5592
+
+   Visual Xccelerator Engine Direct3D9 Compatibility
+      Determines whether the adapter is blacklisted due to its unstable work... FALSE
+      Trying to create Direct3D9 Device... SUCCESS
+
+   Visual Xccelerator Engine Direct3D11 Compatibility
+      Trying to create Direct3D9Ex Device (WPF Compatibility)... SUCCESS
+      Trying to create Direct3D11 Device... SUCCESS
+
+   Rank: 3001008 Points
+
+Examining Graphics Adapter: Microsoft Basic Render Driver
+   VRAM: 0Mb
+   DeviceId: 140
+
+   Visual Xccelerator Engine Direct3D9 Compatibility
+      Determines whether the adapter is blacklisted due to its unstable work... FALSE
+      Trying to create Direct3D9 Device... FAILED
+
+   Visual Xccelerator Engine Direct3D11 Compatibility
+      Trying to create Direct3D9Ex Device (WPF Compatibility)... FAILED
+      Trying to create Direct3D11 Device... SUCCESS
+
+   Rank: 2000000 Points
+
+Selected Graphics Adapter, where DeviceId is: 5592
+   Is Direct3D9 Supported: TRUE
+   Is Direct3D11 Supported: TRUE
+   Is Blacklisted: FALSE

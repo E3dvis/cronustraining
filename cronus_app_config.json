@@ -1,0 +1,51 @@
+{
+  "log_dir": "D:/CronusTestingLogs",
+  "ch1": {
+    "test_min": 680.0,
+    "test_max": 960.0,
+    "wait_time": 3.0,
+    "cycles": 32,
+    "measure_power_curve": false
+  },
+  "ch2": {
+    "test_min": 950.0,
+    "test_max": 1300.0,
+    "wait_time": 3.0,
+    "cycles": 100,
+    "measure_power_curve": false
+  },
+  "show_zones": true,
+  "zones": [
+    {
+      "name": "VIS1",
+      "enabled": true,
+      "min": 670.0,
+      "max": 800.0
+    },
+    {
+      "name": "VIS2",
+      "enabled": true,
+      "min": 800.1,
+      "max": 960.0
+    },
+    {
+      "name": "IR1",
+      "enabled": true,
+      "min": 940.0,
+      "max": 1100.0
+    },
+    {
+      "name": "IR2",
+      "enabled": true,
+      "min": 1100.1,
+      "max": 1320.0
+    }
+  ],
+  "cronus_apps": [
+    {
+      "name": "Cronus.exe",
+      "path": "D:/LC apps/Cronus-Demo/Cronus.exe"
+    }
+  ],
+  "cronus_app_default": 0
+}
